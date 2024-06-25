@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display:block;
+    height:400px;
+    width:400px;
+    border-radius:100%;
+    background :#131f34;
+    margin:auto;
+    box-shadow:0 0 8px 8px #9c35a1, 0 0 120px #9c35a1, 0 0 200px #9c35a1, inset -100px 10px 100px 40px #e20272;
+    transition:1s;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-200px;
+    margin-top:-200px;
+  }
+ 
